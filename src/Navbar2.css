@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navlinks {
+    display: flex;
+    list-style: none;
+}
+
+.navlinks li {
+    padding: 1rem 1rem;
+}
+
+
+.navlinks2 {
+    display: flex;
+    list-style: none;
+}
+
+.navlinks2 li {
+    padding: 1rem 1rem;
+}
+
+
+
+
+
+.fas{
+    display: none;
+    position: absolute;
+    right: 0.5rem;
+    top: 1rem;
+}
+
+@media (max-width: 600px){
+    .fas{
+        display: flex;
+    }
+    .navbar{
+       display: flex;
+      flex-direction: column;
+    }
+    .navlinks {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        display: none;
+    }
+}

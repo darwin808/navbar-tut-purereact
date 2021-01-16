@@ -1,0 +1,36 @@
+.navbar{
+  display: flex;
+justify-content: space-between;
+}
+.navlinks,{
+  display: flex;
+}
+.navlinks li{
+ list-style-type:none;
+ padding: 1rem 1rem;
+}
+
+.fas{
+  position: absolute;
+
+  display: none;
+}
+
+@media (max-width: 600px){
+  .fas{
+    display: block;
+    right: 1rem; 
+    right: .3rem;
+     top: 1rem;
+  }
+  .navbar{
+    flex-direction: column;
+    
+  }
+  .navlinks{
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+    display: flex;
+  }
+}
