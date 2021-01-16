@@ -1,0 +1,53 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.title{
+    padding: 1rem 1rem;
+}
+
+.navlinks{
+    display: flex;
+    list-style: none;
+}
+
+.navlinks li {
+    padding: 1rem 1rem;
+}
+
+.fas{
+    display: none;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.navlinks2{
+    display: flex;
+    list-style: none;
+}
+
+.navlinks2 li {
+    padding: 1rem 1rem;
+}
+
+
+@media (max-width:500px){
+    .fas{
+        display: flex;
+        cursor: pointer;
+    }
+    .navbar{
+       
+        flex-direction: column;
+    }
+    .navlinks{
+       
+        flex-direction: column;
+        align-items: center;
+    }
+    .navlinks2{
+        display: none;
+    }
+}

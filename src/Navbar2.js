@@ -22,12 +22,13 @@ function Navbar2() {
     setmobilemenu("flex");
     console.log(window.innerWidth);
   };
-  const [width, setwidth] = useWindow();
+  const [width, height] = useWindow();
   return (
     <>
       <div className="navbar">
         <div className="header">
           <h1>EPIC</h1>
+          {width}
 
           <i
             ref={ref1}
